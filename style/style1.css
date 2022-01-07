@@ -1,0 +1,60 @@
+body {
+background-image: url("img/Polissia-lis-richka-zemlia.jpg.jpg");
+}
+header{
+ margin-top: 50px;
+font-family: Cuprum, Arial, Helvetical, sans-serif;
+}
+.dws-menu *{
+margin: 0;
+padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+list-style: none;
+}
+.dws-menu > ul{
+   display: flex;
+   justify-content: center;
+}
+.dws-menu > ul li a{
+	display: block;
+	background: blue;
+	padding: 15px 30px 15px 40px;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.dws-menu > ul li{
+	position: relative;
+	border: 1px solid #c7c8ca;
+}
+.dws-menu > ul li > a i.fa{
+position: absolute;
+top: 15px;
+left: 12px;
+font-size: 18px;
+} 
+.dws-menu > ul li: first-child{
+	border-left: 1px solid #b2d3d5;
+}
+.dws-menu > ul li: first-child{
+	border-right: 1px solid #babbbb;
+}
+.dws-menu > li a:hover{
+background: #454547;
+color: #ffffff;
+box-shadow: 1px 5px 10px -5px black;
+}
+
+
+
+/*Sub menu*/
+.dws-menu > li ul{
+position: absolute;
+min-width: 150px;
+}
+.dws-menu li ul li{
+border: 1px solid #c7c8ca;
+}
